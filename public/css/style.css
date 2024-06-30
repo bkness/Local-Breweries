@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(to right, #aafca1, #4caf50);
+}
+
+h1, h5 {
+    font-family: 'Lobster';
+}
+
+#searchButton {
+    width: 50%;
+}
+
+#logout {
+    margin-bottom: 5px;
+    padding: 9px
+}
+
+.card {
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+#deletebrewery {
+    background-color: red;
+    border-color: red;
+}
+
+#pubcomment {
+    border-radius: 5px;
+}
+
+#mybrewlist {
+    height: 280px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#map {
+    height: 350px;
+}
+
+#search-container {
+    margin-top: 55px;
+    height: 165px;
+}
+
+h5 {
+    margin-left: 165px;
+}
+
+.brewery-template {
+    text-align: center;
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#search-container {
+    margin-top: 55px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#saveButton {
+    width: 20%;
+    position: row;
+}
+
+#mapbtn {
+    width: 20%;
+    background-color: green;
+    border-color: green;
+}
+
+
+@media screen and (min-width: 430px) and (max-width: 932px) {
+    .brewery-template {
+        margin-bottom: 0;
+        width: 340px;
+        margin-top: 15px;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    h5 {
+        margin-left: 105px;
+        margin-top: 7px;
+    }
+
+    #logout {
+        margin-left: 55px;
+    }
+
+}
