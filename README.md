@@ -1,76 +1,88 @@
-# LocalBreweries
+# Local Breweries
 
-# User Story
+## User Story
 
-    I would like to have a page that shows me what breweries are near by
-    I would like to be able to store some of the breweries for later reference
-    I would like to have a sign in page so then i can see a private list of breweries i searched
-    I would like a way to remove past searches or add additional breweries
+As a user, I want to:
+1. View a list of nearby breweries.
+2. Save selected breweries for future reference.
+3. Sign in to see a private list of saved breweries.
+4. Add comments to or remove breweries from my saved list.
 
-# User Acceptance
+## User Acceptance Criteria
 
-    When a page display a list of breweries in an area
-    When a site ask me to login before I search 
-    When I can save, comment or remove breweries from a destination i looked up
+- Display a list of breweries in a specified area.
+- Prompt the user to log in before performing searches.
+- Allow users to save, comment on, or remove breweries from their saved list.
 
-## DESCRIPTION:
+## Description
 
-    We want to create a site that uses a API to lookup local breweries in the area that one can have a drink. We want the user to be able to login so they can save a list of breweries in a city they might want to visit. Then we want to be able to add or remove breweries from these lookup as the user decides too. 
+LocalBreweries is a web application that allows users to find local breweries, save their favorites, and manage their list of saved breweries. Users can log in to access a personalized list of breweries, add comments, and remove breweries as needed. The application integrates with an external API to fetch brewery data and utilizes the Leaflet open-source map for geographical visualization.
 
-![wireframe](images/P2-wf-homepage.jpg)
-![wireframe](images/P2-wf-login.jpg)
-![wireframe](images/P2-wf-mainsearch.jpg)
-![wireframe](images/P2-wf-saveddestinations.jpg)
+![Homepage Wireframe](images/P2-wf-homepage.jpg)
+![Login Wireframe](images/P2-wf-login.jpg)
+![Main Search Wireframe](images/P2-wf-mainsearch.jpg)
+![Saved Destinations Wireframe](images/P2-wf-saveddestinations.jpg)
 
-## CONTENT:
+## Content
 
-* [DESCRIPTION](#description)
-* [INSTALLATION](#installation)
-* [LICENSE](#license)
-* [CONTRIBUTING](#contributing)
-* [TEST](#test)
-* [QUESTIONS](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [License](#license)
+- [Contributing](#contributing)
+- [Test](#test)
+- [Questions](#questions)
 
-## INSTALLATION:
+## Installation
 
-express
-mysql2
-sequelize
-dotenv
-handlebars
-express-handlebars
-express-session
-bcrypt
+To run this project locally, you'll need to install the following dependencies:
 
+- express
+- mysql2
+- sequelize
+- dotenv
+- handlebars
+- express-handlebars
+- express-session
+- bcrypt
 
-## LICENSE:
+Use the following commands to set up the project:
 
-ISC license
+``npm install express mysql2 sequelize dotenv handlebars express-handlebars express-session bcrypt``
 
-## CONTRIBUTING:
+## License
 
-Github User: SJBDLT
-Github User: Bkness 
-Github User: Shawnclarke21
+This project is licensed under the ISC license.
+
+## Contributing
+
+We welcome contributions from the community. Please feel free to submit pull requests.
+
+Contributors:
+- [SJBDLT](https://github.com/SJBDLT)
+- [Bkness](https://github.com/bkness)
+- [Shawnclarke21](https://github.com/shawnclarke21)
 
 Server APIs:
-https://api.openbrewerydb.org
+- [Open Brewery DB](https://api.openbrewerydb.org)
 
 Coding BootCamp Curriculum:
 © 2022 edX Boot Camps LLC. All Rights Reserved.
 
-## TEST:
+## Test
 
-Verified the api calls and make sure inputs, updates and deletion from database occur correctly
+We have verified the API calls and ensured that input, update, and deletion operations on the database are functioning correctly.
 
-## QUESTIONS:
+## Questions
 
-### User ID - SJBDLT, Bkness, Shawnclarke21
-### User Email - sblake@blakeis.com, kbrandon863@gmail.com, srclark777@gmail.com
+For any questions, please contact us:
 
-Heroku - https://radiant-fjord-87739-920e7bb79c22.herokuapp.com
+- [SJBDLT](https://github.com/SJBDLT) - sblake@blakeis.com
+- [Bkness](https://github.com/bkness) - kbrandon863@gmail.com
+- [Shawnclarke21](https://github.com/shawnclarke21) - srclark777@gmail.com
 
+Visit our deployed application on Heroku: [LocalBreweries](https://local-breweries-d7e27e181616.herokuapp.com/)<br>
+https://local-breweries-d7e27e181616.herokuapp.com/
 
-repo - https://github.com/sjbdlt/LocalBreweries.git
+Repository: [GitHub](https://github.com/sjbdlt/LocalBreweries.git)
 
-![wireframe](images/LocalBrewery.png)
+![Local Breweries](images/LocalBrewery.png)
