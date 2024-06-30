@@ -21,17 +21,17 @@
 
 <body>
   <div class="container-fluid">
-    <header class="d-flex justify-content-between align-items-center p-2">
+    <header class="header-container">
       <h1>
         <span role="img" aria-label="beer">🍺</span>
         <a href="/">Local Breweries</a>
       </h1>
       <nav>
         <!-- Conditionally render login or logout links -->
-        <a href="/" class="mr-2">Home</a>
+        <a href="/" class="home-btn">Home</a>
         {{#if logged_in}}
-        <a href="/api/breweries" class="mr-2">My Pubs</a>
-        <button class="btn btn-link" id="logout">Logout</button>
+        <a href="/api/breweries" class="mypubs-btn">My Pubs</a>
+        <button class="logout-btn btn btn-link" id="logout">Logout</button>
         {{else}}
         <a href="/login" class="mr-2">Login</a>
         {{/if}}
