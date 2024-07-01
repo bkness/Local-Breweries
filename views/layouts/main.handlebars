@@ -24,7 +24,7 @@
     <header class="header-container">
       <h1>
         <span role="img" aria-label="beer">🍺</span>
-        <a href="/">Local Breweries</a>
+        <a href="/" class="local-brew">Local Breweries</a>
       </h1>
       <nav>
         <!-- Conditionally render login or logout links -->
@@ -33,7 +33,7 @@
         <a href="/api/breweries" class="mypubs-btn">My Pubs</a>
         <button class="logout-btn btn btn-link" id="logout">Logout</button>
         {{else}}
-        <a href="/login" class="mr-2">Login</a>
+        <a href="/login" class="login-btn">Login</a>
         {{/if}}
       </nav>
     </header>

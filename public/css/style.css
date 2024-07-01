@@ -2,17 +2,41 @@ body {
     background: linear-gradient(to right, #aafca1, #4caf50);
 }
 
-h1, h5 {
+h1,
+h5 {
     font-family: 'Lobster';
+}
+
+.card-title {
+    text-align: center;
 }
 
 #searchButton {
     width: 50%;
 }
 
-#logout {
-    margin-bottom: 5px;
-    padding: 9px
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} 
+
+ nav {
+    display: flex;
+    align-items: center; 
+}
+
+.login-btn,
+.mypubs-btn,
+.home-btn {
+    margin-left: 13px; 
+    font-size: 1.4rem;
+}
+
+.logout-btn {
+    font-size: 1.4rem;
 }
 
 .card {
@@ -21,7 +45,7 @@ h1, h5 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#deletebrewery {
+˝ #deletebrewery {
     background-color: red;
     border-color: red;
 }
@@ -45,17 +69,14 @@ h1, h5 {
     height: 165px;
 }
 
-h5 {
-    margin-left: 165px;
-}
-
 .brewery-template {
     text-align: center;
-    width: 500px;
+    width: 100%;
     margin-bottom: 20px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow-wrap: break-word; 
 }
 
 #search-container {
@@ -65,45 +86,29 @@ h5 {
 }
 
 #saveButton {
-    width: 20%;
+    width: 30%;
     position: row;
 }
 
 #mapbtn {
-    width: 20%;
+    width: 30%;
     background-color: green;
     border-color: green;
 }
 
 
-@media (max-width: 700px) {
-    .brewery-template {
-        margin-bottom: 0;
-        width: 340px;
-        margin-top: 15px;
-        padding: 20px;
+@media (max-width: 600px) {
+     
+    .header-container {
+        flex-direction: column;
+        align-items: center;
     }
 
     nav {
         display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
+        justify-content: center;
+        flex-direction: row;
         margin: 0;
-    }
-    
-    #logout {
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-
-    .card-body {
-        padding: 20px;
-    }
-
-    h5 {
-        margin-left: 105px;
-        margin-top: 7px;
     }
 
 }
