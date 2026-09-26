@@ -1,5 +1,9 @@
 # Local Breweries
 
+> **About this project:** a group project from my ASU full-stack bootcamp, built with [SJBDLT](https://github.com/SJBDLT) and [Shawnclarke21](https://github.com/shawnclarke21). It's kept as the original version; its free Heroku hosting has ended.
+>
+> I later rebuilt it on my own as **[breweries](https://github.com/bkness/breweries)**, live at **[breweries-bkness.vercel.app](https://breweries-bkness.vercel.app)**.
+
 ## User Story
 
 As a user, I want to:
@@ -80,8 +84,7 @@ For any questions, please contact us:
 - [Bkness](https://github.com/bkness) - kbrandon863@gmail.com
 - [Shawnclarke21](https://github.com/shawnclarke21) - srclark777@gmail.com
 
-Visit our deployed application on Heroku: [LocalBreweries](https://local-breweries-d7e27e181616.herokuapp.com/)<br>
-https://local-breweries-d7e27e181616.herokuapp.com/
+The Heroku deployment is no longer live. The rebuild is at [breweries-bkness.vercel.app](https://breweries-bkness.vercel.app).
 
 Repository: [GitHub](https://github.com/sjbdlt/LocalBreweries.git)
 
