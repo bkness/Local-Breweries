@@ -55,7 +55,7 @@ Use the following commands to set up the project:
 
 ## License
 
-This project is licensed under the ISC license.
+This project is licensed under the MIT license — see [LICENSE](LICENSE).
 
 ## Contributing
 
